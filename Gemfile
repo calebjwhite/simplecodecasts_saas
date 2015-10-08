@@ -12,8 +12,9 @@ group:production do
 end
 #Use bootstrap for styles
 gem 'bootstrap-sass', '3.3.5'
+gem 'font-awesome-sass', '4.2.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 3.2'
+gem 'sass-rails', '>=3.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
