@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users, controllers: {registrations: 'users/registrations'}
+  devise_for :users, controllers: { registrations: 'users/registrations' }
   resources :contacts
   get '/about' => 'pages#about'
   root 'pages#home'
@@ -29,7 +29,7 @@ Rails.application.routes.draw do
   #
   #     collection do
   #       get 'sold'
-  #     end
+  #     end     
   #   end
 
   # Example resource route with sub-resources:
