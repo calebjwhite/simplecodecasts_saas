@@ -1,3 +1,10 @@
+/*User Show Page*/
+
+.user-show-avatar {
+     height: 200px;
+     width: 200px;
+}
+
 .job_title_icon {
      width: 30px;
      height: 30px;
@@ -27,9 +34,12 @@
      border-color: #46b8da;
 }
 
-.avatar {
-     -webkit-box-shadow: 7px 7px 32px 0px rgba(0,0,0,0.58);
-     -moz-box-shadow: 7px 7px 32px 0px rgba(0,0,0,0.58);
-     box-shadow: 7px 7px 32px 0px rgba(0,0,0,0.58);
+/*User index page*/
 
+.well.white-bg {
+     background-color: white;
+}
+
+.user-index-avatar {
+     border-radius: 50%;
 }
